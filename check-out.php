@@ -1,3 +1,7 @@
 <?php
-    echo "HELLO";
-?>
+class First
+{
+    public $num;
+    
+
+}
