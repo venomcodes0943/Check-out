@@ -14,9 +14,11 @@ class Todo
         $this->price = $p;
     }
     function head(){
+
         echo "Car: " . $this->car . "\n";
         echo "Brand: " . $this->brand . "\n";
         echo "Price: $" . $this->price . "\n";
+    
     }
     function Hi(){
         echo "Hi i'm From Todo Class";
@@ -43,7 +45,7 @@ class Carmaterial extends Todo
     {
         echo "Color: " . $this->color . "\n";
         echo "Brand: " . $this->shape . "\n";
-        echo "Price: $" . $this->size . "\n";
+        echo "Price: $" . $this->size . "\n"; 
     }
 }
 
