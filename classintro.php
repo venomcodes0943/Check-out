@@ -17,7 +17,7 @@ class Cf
 {
     public $name, $age, $gender;
 
-    function __construct($c_name, $c_age, $c_gender)
+    function __construct($c_name = "No_name", $c_age = 'empty', $c_gender = 'empty')
     {
         $this->name = $c_name;
         $this->age = $c_age;
